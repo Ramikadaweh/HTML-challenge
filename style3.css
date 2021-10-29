@@ -1,0 +1,178 @@
+:root{
+    background-color: gainsboro;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 800px;
+    height: 200px;
+}
+
+.nav{
+   display: flex;
+  
+   align-self: center;
+   align-items: flex-start;
+   flex-basis: 50px;
+   align-items: stretch;
+   background-color: rgb(68, 65, 65);
+   width: 60%;
+   
+}
+
+.nav a {
+    float: left;
+    color: #b4a6a6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .nav a:hover {
+    background-color: rgba(221, 221, 221, 0.082);
+    color: rgb(212, 44, 44);
+  }
+  
+  
+  .nav a.active {
+    background-color: #04AA6D;
+    color: rgba(255, 255, 255, 0.096);
+  }
+
+  menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      flex-basis: 30%;
+      color: floralwhite;
+      font-size: 20px;
+      margin: 10px;
+  }
+
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: row ;
+    align-self: center;
+    width: 800px;
+    
+}
+.container2-1{
+    display: flex;
+    flex-basis: 25%;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(243, 235, 235);
+    color: black;
+}
+.container2-2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    align-items: flex-start;
+    background-color: rgb(243, 235, 235);
+}
+.container2-1 a {
+    float: left;
+    color: #080808;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .container2-1 a:hover {
+    background-color: rgba(221, 221, 221, 0.082);
+    color: rgb(212, 44, 44);
+  }
+  .container2-1 a.active {
+    background-color: #04AA6D;
+    color: rgba(255, 255, 255, 0.096);
+  }
+
+  .container2-3{
+      display: flex;
+      flex-direction: row;
+  }
+  .container2-3-1{
+      display: flex;
+      flex-basis: 50%;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  .container2-3-2{
+      display: flex;
+      flex-basis: 50%;
+      flex-direction: column;
+      margin: 10px;
+  }
+button{
+    width: 50px;
+}
+.contacts{
+    margin: 10px;
+}
+.con{
+    margin-bottom: 2px;
+}
+.survey-form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 800px;
+    font-size:20px;
+    font-style:normal;
+    background-color:#6A5ACD;
+    opacity:80%;
+}
+
+#contact{
+    font-size: 30px;
+    margin: 8px;
+}
+
+#name{
+    width:70%;
+    margin: 8px;
+    height: 30px;
+}
+#email{
+    width:70%;
+    margin: 8px;
+    height: 30px;
+}
+#message{
+    width: 70%;
+    height: 70px;
+    margin: 8px;
+}
+#name-label{
+    margin: 8px;
+}
+#email-label{
+    margin: 8px;
+}
+#message-label{
+    margin: 8px;
+}
+#submit{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    background-color:seagreen;
+    width:25%;
+    height:40px;
+    margin:8px;
+  }
